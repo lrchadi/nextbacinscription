@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-serif)
+}
+
+:root{
+    --font-serif: "Noto Naskh Arabic", serif;
+    --font-sans: "Playpen Sans Arabic", cursive;
+}
+
+body{
+    direction: rtl;
+    background-color: hsl(0, 0%, 98%);
+}
+
+@media screen and (max-width: 550px) {
+    .moroccan_image{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+    .moroccan_image img{
+        object-fit: contain;
+    }
+    .introduction{
+        text-align: center;
+    }
+    .introduction span{
+        color: red;
+        font-family: var(--font-sans)
+    }
+    .introduction .title{
+        font-size: 40px;
+        font-family: "Playpen Sans Arabic", cursive;
+        margin: 10px 0;
+    }
+    .introduction .subtitle{
+        font-size: 18px;
+        font-weight: 500;
+        width: 360px;
+        margin: 10px auto 16px;
+    }
+    .search_section{
+        background-color: hsl(0, 0%, 98%);
+        position: sticky;
+        top: -1px;
+        padding: 8px 0 1px;
+        margin-bottom: 10px;
+    }
+    .inputSearch{
+        width: 350px;
+        margin: 0 auto 18px;
+        position: relative;
+    }
+    .inputSearch #input_serch{
+        width: 100%;
+        outline: none;
+        border: none;
+        height: 50px;
+        border-radius: 40px;
+        padding: 0 14px;
+        font-size: 14px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .inputSearch .search_icon{
+        position: absolute;
+        left: 8px;
+        top: 12px;
+        background-color: white;
+    }
+    .filter{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        gap: 12px;
+        padding: 8px 15px;
+        border-radius: 12px;
+        background-color: white;
+        position: relative;
+        right: 62%;
+        margin: 0 0 20px;
+    }
+    .filter:active{
+        background-color: hsl(0, 0%, 95%);
+    }
+}
