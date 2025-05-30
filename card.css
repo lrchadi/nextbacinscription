@@ -1,24 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900');
+
 @media screen and (max-width: 550px) {
-    .card{
-        border: 1px solid black;
+    .cards{
         display: flex;
         align-items: center;
-        gap: 20px;
-        direction: ltr;
-        background-color: white;
-        padding: 8px 12px;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin: auto;
         width: 90%;
-        margin: 0 auto 16px;
+        gap: 18px;
+    }
+    .card{
+        width: 180px;
+        background-color: white;
         border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    
     }
     .card img{
-        object-fit: contain;
+        border-radius: 8px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
-    .card .ecole_nom{
-        font-size: 18px;
-    }
-    .card .location{
-        color: hsl(0, 0%, 50%);
-        font-size: 12px;
+    .card .es_name{
+        font-size: 24px;
+        font-family: "Inter", sans-serif;
     }
 }

@@ -10,11 +10,12 @@
 :root{
     --font-serif: "Noto Naskh Arabic", serif;
     --font-sans: "Playpen Sans Arabic", cursive;
+    --bg-color: #F7F7F7;
 }
 
 body{
     direction: rtl;
-    background-color: hsl(0, 0%, 98%);
+    background-color: var(--bg-color);
 }
 
 @media screen and (max-width: 550px) {
@@ -44,47 +45,15 @@ body{
         width: 360px;
         margin: 10px auto 16px;
     }
-    .search_section{
-        background-color: hsl(0, 0%, 98%);
-        position: sticky;
-        top: -1px;
-        padding: 8px 0 1px;
-        margin-bottom: 10px;
+    hr{
+        width: 95%;
+        margin: 20px auto;
     }
-    .inputSearch{
-        width: 350px;
-        margin: 0 auto 18px;
-        position: relative;
+    main{
+        direction: ltr;
     }
-    .inputSearch #input_serch{
-        width: 100%;
-        outline: none;
-        border: none;
-        height: 50px;
-        border-radius: 40px;
-        padding: 0 14px;
-        font-size: 14px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
-    .inputSearch .search_icon{
-        position: absolute;
-        left: 8px;
-        top: 12px;
-        background-color: white;
-    }
-    .filter{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        gap: 12px;
-        padding: 8px 15px;
-        border-radius: 12px;
-        background-color: white;
-        position: relative;
-        right: 62%;
-        margin: 0 0 20px;
-    }
-    .filter:active{
-        background-color: hsl(0, 0%, 95%);
+    a{
+        text-decoration: none;
+        color: black;
     }
 }
