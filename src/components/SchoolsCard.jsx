@@ -8,7 +8,7 @@ function SchoolsCard() {
         <div className="cards">
             {schools.map(school => (
                 <div className="card" key={school.id}>
-                    <a href={'/ecole/' + school.path}>
+                    <a href={'/ecoles/' + school.path}>
                         <img src={school.img} alt="ES" width={120} height={120} />
                     </a>
                 </div>
