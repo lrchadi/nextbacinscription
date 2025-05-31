@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Naskh+Arabic:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-serif: "Noto Naskh Arabic", serif;
+    --font-sans: "Playpen Sans Arabic", cursive;
+    --font-inter: "Inter", sans-serif;
+    --backgroud-color: #FBF9FA;
+    --priemery-color: #2B2024;
+    --secondary-color: #FD0054;
+    --hover-color: #A80038;
+    --headline-size: 2rem;
+    --title-size: 1.5rem;
+    --parag-size: 1rem;
+    --link-size: 1rem;
+    --headline-phone-size: 38px;
+    --title-phone-size: 1.25rem;
+    --parag-phone-size: 16px;
+    --border-raduis-1: 30px;
+    --border-raduis-2: 8px;
+    --margin-bottom-1: 25px;
+    --margin-bottom-2: 18px;
+    --margin-bottom-3: 12px;
+}
+
+body{
+    background-color: var(--backgroud-color);
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}

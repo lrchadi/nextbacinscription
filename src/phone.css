@@ -1,0 +1,79 @@
+@media screen and (max-width: 550px) {
+    header{
+        /* width: 80%;
+        margin: 0 auto; */
+        margin: 0 30px;
+    }
+    .moroccanLogo{
+        text-align: center;
+        margin-bottom: var(--margin-bottom-1);
+    }
+    .headline{
+        font-family: var(--font-sans);
+        font-size: var(--headline-phone-size);
+        text-align: center;
+        margin-bottom: var(--margin-bottom-1);
+    }
+    span{
+        color: var(--secondary-color);
+    }
+    .subheadline{
+        text-align: center;
+        font-size: var(--parag-phone-size);
+        font-family: var(--font-serif);
+        margin-bottom: var(--margin-bottom-1);
+    }
+    .input{
+        position: relative;
+        margin-bottom: var(--margin-bottom-1);
+    }
+    .searchInput{
+        width: 100%;
+        margin: auto;
+        height: 40px;
+        border-radius: var(--border-raduis-1);
+        border: none;
+        outline: none;
+        padding: 0 12px;
+        font-family: var(--font-serif);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .searchIcon{
+        position: absolute;
+        left: 8px;
+        top: 8px;
+    }
+    .schools h1{
+        font-family: var(--font-serif);
+        font-size: var(--title-phone-size);
+        margin: 0 30px var(--margin-bottom-1);
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        margin-bottom: var(--margin-bottom-1);
+        padding-right: 30px;
+    }
+    .card img{
+        border-radius: var(--border-raduis-2);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .majors{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 30px var(--margin-bottom-1);
+    }
+    .majors h1{
+        font-family: var(--font-serif);
+        font-size: var(--title-phone-size);
+    }
+    .majors .more{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+}
