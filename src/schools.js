@@ -6,23 +6,23 @@ import ES5 from './images/ES5.png'
 
 export const schools = [
     {
-        id: 'ES',
+        id: 'Ecole Super',
         img: ES1,
     },
     {
-        id: 'ES',
+        id: 'Institue Super',
         img: ES2,
     },
     {
-        id: 'ES',
+        id: 'UNV',
         img: ES3,
     },
     {
-        id: 'ES',
+        id: 'OFPPT',
         img: ES4,
     },
     {
-        id: 'ES',
+        id: 'Ecole Militaire',
         img: ES5,
     },
 ]
