@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ofppt",
+        "name": "CENTRE ASSOCIATION DE L'ENTRAIDE FAMILLIALE RABAT",
+        "city": "Rabat",
+        "adress": "AV. AL MASSIRA J5 N° 731 YACOB AL MANSOUR RABAT",
+        "phone": "06 60 82 56 43",
+        "image": "/images/OFPPT_img.png",
+        "description": "L’OFPPT a développé au cours de la dernière décennie une coopération fructueuse avec de nombreux pays. Une politique volontariste qui s’est concrétisée par des projets allant de missions d’assistance technique, la formation, jusqu’à l’amélioration des compétences des formateurs.",
+        "filiere": ["Gestion des Entreprises", "Développement Digital"]
+    },
+    {
+        "id": "ofppt",
+        "name": "CENTRE DE FORMATION DANS LES METIERS DE LA MAINTENANCE ET DES ENERGIES RENOUVELABLES RABAT",
+        "city": "Rabat",
+        "adress": "AVENUE MUSTAPHA ESSAYEH – OCEAN",
+        "phone": "-",
+        "image": "/images/OFPPT_img.png",
+        "description": "L’OFPPT a développé au cours de la dernière décennie une coopération fructueuse avec de nombreux pays. Une politique volontariste qui s’est concrétisée par des projets allant de missions d’assistance technique, la formation, jusqu’à l’amélioration des compétences des formateurs.",
+        "filiere": ["Génie énergétique", "Génie électrique"]
+    },
+    {
+        "id": "ofppt",
+        "name": "CENTRE DE FORMATION DANS LES METIERS EDUCATIFS ET SOCIAUX YAACOUB EL MANSOUR RABA",
+        "city": "Rabat",
+        "adress": "RUE EL AMAL HAY SAHRIJ CYM RABAT",
+        "phone": "05 37 69 45 22",
+        "image": "/images/OFPPT_img.png",
+        "description": "L’OFPPT a développé au cours de la dernière décennie une coopération fructueuse avec de nombreux pays. Une politique volontariste qui s’est concrétisée par des projets allant de missions d’assistance technique, la formation, jusqu’à l’amélioration des compétences des formateurs.",
+        "filiere": ["Educateur Spécialisé dans la Petite Enfance"]
+    }
+]

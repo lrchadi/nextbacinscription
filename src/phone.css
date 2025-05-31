@@ -176,4 +176,50 @@
     footer .madewithlove{
         font-family: var(--font-inter);
     }
+    .ecoles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        gap: 18px;
+        width: 90%;
+        margin: auto;
+    }
+    .ecoles .ecole{
+        direction: ltr;
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: var(--border-raduis-2);
+        padding: 8px 12px 10px;
+    }
+    .ecole .ecole_name{
+        font-size: var(--link-size);
+        font-family: var(--font-inter);
+        font-weight: 400;
+        margin-bottom: var(--margin-bottom-3);
+    }
+    .ecole .ecole_city{
+        font-family: var(--font-inter);
+        font-size: calc(var(--link-size) / 1.1);
+        color: #393E46;
+        font-style: italic;
+    }
+    .filter{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: auto;
+        margin-left: 21px;
+        margin-top: 15px;
+        margin-bottom: var(--margin-bottom-1);
+        padding: 8px 16px;
+        border: none;
+        border-radius: var(--border-raduis-2);
+        background-color: var(--secondary-color);
+        color: white;
+        font-size: var(--link-size);
+        font-family: var(--font-inter);
+    }
+    .filter:active{
+        background-color: var(--hover-color);
+    }
 }

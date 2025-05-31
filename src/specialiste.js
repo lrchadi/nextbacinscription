@@ -1,9 +1,9 @@
-import medcine from './images/medcine_image.jpg'
-import engin from './images/Enginerering_image.jpg'
-import informatique from './images/computer_science.png'
-import education from  './images/education.jpg'
-import loi from  './images/loi.jpg'
-import economie from './images/economie.jpg'
+import medcine from '../public/images/medcine_image.jpg'
+import engin from '../public/images/Enginerering_image.jpg'
+import informatique from '../public/images/computer_science.png'
+import education from  '../public/images/education.jpg'
+import loi from  '../public/images/loi.jpg'
+import economie from '../public/images/economie.jpg'
 
 
 export const specialiste = [

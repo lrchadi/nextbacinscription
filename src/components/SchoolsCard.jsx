@@ -1,14 +1,14 @@
 import { schools } from "../schools"
 
 
-function Card() {
+function SchoolsCard() {
   return (
     <div className="schools">
         <h1>المدارس</h1>
         <div className="cards">
             {schools.map(school => (
                 <div className="card" key={school.id}>
-                    <a href="../../Schools.jsx">
+                    <a href={'/ecole/' + school.path}>
                         <img src={school.img} alt="ES" width={120} height={120} />
                     </a>
                 </div>
@@ -18,4 +18,4 @@ function Card() {
   )
 }
 
-export default Card
+export default SchoolsCard

@@ -1,11 +1,11 @@
 import FeedBack from '../components/FeedBack'
 import MajorsCard from '../components/MajorsCard'
-import Card from '../components/SchoolsCard'
+import SchoolsCard from '../components/SchoolsCard'
 import SerachInput from '../components/SerachInput'
-import moroccanKingdom from '../images/moroccan_logo.jpg'
+import moroccanKingdom from '../../public/images/moroccan_logo.jpg'
 import '../phone.css'
 
-
+ 
 function Home() {
   return (
     <>
@@ -17,7 +17,7 @@ function Home() {
             <p className='subheadline'>موقع يجمع لك أغلب المدارس, المعاهد و الجامعات المغربية لكي تكمل تعليمك فيها بعد الباك.</p>
             <SerachInput />
         </header>
-        <Card />
+        <SchoolsCard />
         <MajorsCard />
         <div className="ctaSection">
           <h1 className="title">أختر <span>توجهك</span> ألان بكل <span style={{fontWeight: 'bold', color: 'black'}}>سهولة</span></h1>
