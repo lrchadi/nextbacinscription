@@ -1,3 +1,4 @@
+import FeedBack from '../components/FeedBack'
 import MajorsCard from '../components/MajorsCard'
 import Card from '../components/SchoolsCard'
 import SerachInput from '../components/SerachInput'
@@ -18,6 +19,18 @@ function Home() {
         </header>
         <Card />
         <MajorsCard />
+        <div className="ctaSection">
+          <h1 className="title">أختر <span>توجهك</span> ألان بكل <span style={{fontWeight: 'bold', color: 'black'}}>سهولة</span></h1>
+          <p className='subTitle'>ستجد في كل صفحة شرح للمؤسسة أو للتخصص, المدن التي تتواجد بها, طريقة التسجيل وغيرها...</p>
+          <a href="#">
+            <button className='ctaBtn'>تسجل الأن</button>
+          </a>
+        </div>
+        <FeedBack />
+        <footer>
+          <p className="msg">بالتوفيق للجميع</p>
+          <p className="madewithlove">♡ Made with </p>
+        </footer>
     </>
   )
 }
